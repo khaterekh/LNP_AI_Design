@@ -1,0 +1,24 @@
+{
+  "model_type": "RandomForestRegressor",
+  "n_estimators": 300,
+  "max_features": "sqrt",
+  "min_samples_leaf": 5,
+  "random_state": 42,
+  "training_rows": 14302,
+  "n_features": 1029,
+  "fingerprint_type": "Morgan",
+  "fingerprint_radius": 2,
+  "fingerprint_size": 1024,
+  "chemical_feature_source": "IL_SMILES",
+  "ratio_features": [
+    "IL_molratio",
+    "HL_molratio",
+    "CHL_molratio",
+    "PEG_molratio",
+    "IL_to_nucleicacid_massratio"
+  ],
+  "target": "Experiment_value",
+  "experiment_method": "luminescence_normalized",
+  "validation": "cluster-disjoint",
+  "n_clusters": 33
+}

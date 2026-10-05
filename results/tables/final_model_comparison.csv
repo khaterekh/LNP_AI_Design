@@ -1,0 +1,7 @@
+Validation,Model,RMSE,MAE,R2
+Chemical-disjoint (exact SMILES),Ratios-only,0.989362,0.775454,0.016773
+Chemical-disjoint (exact SMILES),Morgan-only,0.902646,0.697187,0.182697
+Chemical-disjoint (exact SMILES),Morgan + ratios,0.887469,0.688053,0.208585
+Cluster-disjoint,Ratios-only,0.986565,0.796096,0.010147
+Cluster-disjoint,Morgan-only,0.951771,0.76782,0.077678
+Cluster-disjoint,Morgan + ratios,0.94355,0.759246,0.093953
