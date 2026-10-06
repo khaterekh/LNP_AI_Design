@@ -10,6 +10,10 @@ Under chemically constrained validation, ionizable-lipid molecular fingerprints 
 
 This result supports the project hypothesis that both lipid molecular structure and formulation composition contribute predictive information, while also showing that performance decreases under more conservative chemical separation.
 
+## Results visualization
+
+![Model performance under chemically constrained validation](results/figures/model_performance_r2.png)
+
 ## Dataset
 
 The analysis uses the LNPDB dataset from the public LNPDB repository.
