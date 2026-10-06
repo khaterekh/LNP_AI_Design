@@ -95,12 +95,14 @@ def main():
         "training_rows": int(len(lum)),
         "n_features": int(X.shape[1]),
         "fingerprint_type": "Morgan",
-        "radius": FP_RADIUS,
-        "size": FP_SIZE,
+        "fingerprint_radius": FP_RADIUS,
+        "fingerprint_size": FP_SIZE,
         "chemical_feature_source": "IL_SMILES",
         "ratio_features": RATIO_FEATURES,
         "target": TARGET,
         "experiment_method": EXPERIMENT_METHOD,
+        "validation": "cluster-disjoint",
+        "n_clusters": 33,
     }
 
     METADATA_PATH.write_text(
