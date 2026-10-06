@@ -153,6 +153,28 @@ These values represent predictive contribution within the evaluated model and sh
 - `results/models/lnp_rf_morgan_ratios.joblib`
 - `results/models/lnp_rf_morgan_ratios_metadata.json`
 
+## Reproduce the final model
+
+After cloning this repository, place the LNPDB repository at `LNPDB/`:
+
+```bash
+git clone https://github.com/evancollins1/LNPDB.git LNPDB
+```
+
+Install the pinned Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Train the final Random Forest model:
+
+```bash
+python src/train_model.py
+```
+
+The trained model and metadata are written to `results/models/`.
+
 ## Reproducibility
 
 The analysis was performed in Python using pandas, NumPy, scikit-learn, RDKit, matplotlib, and joblib.
