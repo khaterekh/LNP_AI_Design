@@ -4,6 +4,12 @@
 
 Can ionizable-lipid molecular structure and formulation composition predict normalized LNP luminescence performance under chemically disjoint validation?
 
+## Key result
+
+Under chemically constrained validation, ionizable-lipid molecular fingerprints carried substantially more predictive information than formulation ratios alone. Combining molecular fingerprints with formulation ratios gave the best performance, with R² = 0.209 under exact-SMILES chemical-disjoint validation and R² = 0.094 under cluster-disjoint validation.
+
+This result supports the project hypothesis that both lipid molecular structure and formulation composition contribute predictive information, while also showing that performance decreases under more conservative chemical separation.
+
 ## Dataset
 
 The analysis uses the LNPDB dataset from the public LNPDB repository.
